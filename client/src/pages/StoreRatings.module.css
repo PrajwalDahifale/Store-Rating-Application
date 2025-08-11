@@ -1,0 +1,77 @@
+.container {
+    padding: 20px;
+    max-width: 700px;
+    margin: 40px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(37, 99, 235, 0.1);
+    color: #1F2937;
+
+  }
+ 
+  .title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2563EB;
+    text-align: center;
+    margin-bottom: 25px;
+    user-select: none;
+  }
+  
+  .summary {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #374151;
+    border-left: 4px solid #F97316;
+    padding-left: 12px;
+    user-select: text;
+  }
+  
+  .ratingList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .ratingItem {
+    background-color: #f9fafb;
+    padding: 16px 20px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .ratingItem:hover {
+    box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+  }
+  
+  .userName {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #2563EB;
+  }
+  
+  .ratingStars {
+    font-weight: 600;
+    color: #F97316;
+    margin-left: 6px;
+  }
+  
+  .comment {
+    font-style: italic;
+    color: #6B7280; 
+    margin-top: 6px;
+    user-select: text;
+  }
+  
+  .noRatings {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #6B7280;
+    margin-top: 40px;
+    user-select: none;
+  }
+  

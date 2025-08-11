@@ -1,0 +1,79 @@
+/* Modal Backdrop */
+.backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(2, 6, 23, 0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 40;
+  }
+  
+  /* Modal Box */
+  .modal {
+    width: 520px;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 20px 60px rgba(2, 6, 23, 0.35);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Modal Header */
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Close Button */
+  .close {
+    background: #F97316;
+    border: none;
+    font-size: 18px;
+    color: #ffffff;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+  }
+  
+  .close:hover {
+    background: #2563EB;
+    transform: scale(1.05);
+  }
+  
+  /* Modal Body */
+  .body {
+    margin-top: 14px;
+    color: #1F2937;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* Actions Row */
+  .actions {
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  /* Primary Button */
+  .primary {
+    background: #F97316;
+    color: #ffffff;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+  }
+  
+  .primary:hover {
+    background: #2563EB;
+    transform: scale(1.03);
+  }
+  

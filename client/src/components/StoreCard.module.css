@@ -1,0 +1,68 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background:rgb(128, 128, 128);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 20px rgba(249, 115, 22, 0.25);
+    transform: translateY(-3px);
+  }
+  
+  .title {
+    margin: 0 0 8px 0;
+    color: #2563EB;
+    font-weight: 700;
+    font-size: 1.4rem;
+  }
+  
+  .address {
+    color: #4B5563; /* Dark gray */
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+  }
+  
+  .avgRating {
+    font-weight: 600;
+    color: #F97316;
+    margin-bottom: 12px;
+    font-size: 1rem;
+  }
+  
+  .userRatingSection {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .userRatingLabel {
+    font-weight: 600;
+    color: #2563EB;
+    font-size: 1rem;
+  }
+  
+  .commentBox {
+    width: 100%;
+    resize: vertical;
+    min-height: 60px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 0.95rem;
+    color: #1F2937;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .commentBox:focus {
+    outline: none;
+    border-color: #2563EB;
+    box-shadow: 0 0 6px rgba(37, 99, 235, 0.5);
+  }
+  

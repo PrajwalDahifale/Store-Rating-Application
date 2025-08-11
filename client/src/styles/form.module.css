@@ -1,0 +1,127 @@
+/* Page Container */
+.page {
+    padding: 16px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #e7e9eb;
+  }
+  
+  /* Header Row */
+  .headerRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  
+  /* Card Styling */
+  .card {
+    background: #4607f3;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(2, 6, 23, 0.06);
+    margin-bottom: 16px;
+  }
+  
+  /* Form Layout */
+  .form {
+    display: grid;
+    gap: 14px;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .row label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #f4f6f8;
+  }
+  
+  .row input,
+  .row select,
+  .row textarea {
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #f5f8fd;
+    /* background: transparent; */
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .row input:focus,
+  .row select:focus,
+  .row textarea:focus {
+    border-color: #2563EB;
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.3);
+  }
+  
+  /* Actions */
+  .actions {
+    grid-column: 1 / -1;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+  }
+  
+  /* Primary Button */
+  .primary {
+    background: #F97316;
+    color: #FFFFFF;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+  }
+  
+  .primary:hover {
+    background: #2563EB;
+    transform: scale(1.03);
+  }
+  
+  /* Secondary Button */
+  .secondary {
+    background: transparent;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #1F2937;
+    color: #1F2937;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .secondary:hover {
+    background: #2563EB;
+    color: #FFFFFF;
+  }
+  
+  /* Ghost Button */
+  .ghost {
+    background: transparent;
+    border: none;
+    color: #2563EB;
+    padding: 8px 10px;
+    cursor: pointer;
+  }
+  
+  /* Error Message */
+  .error {
+    color: #b91c1c;
+    font-size: 13px;
+  }
+  
+  /* Filters */
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 12px;
+  }
+  

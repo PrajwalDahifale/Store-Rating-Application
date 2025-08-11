@@ -1,0 +1,69 @@
+/* Center form in the middle of the page */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #2563EB, #1F2937);
+  font-family: Arial, sans-serif;
+}
+
+/* Card style */
+.login-card {
+  background: #FFFFFF;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 320px;
+  text-align: center;
+}
+
+/* Title */
+.login-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2563EB;
+  margin-bottom: 0.5rem;
+}
+
+/* Input styling */
+.login-input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #1F2937;
+  outline: none;
+  font-size: 14px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.login-input:focus {
+  border: 1px solid #2563EB;
+  box-shadow: 0 0 4px rgba(37, 99, 235, 0.5);
+}
+
+/* Button styling */
+.login-button {
+  background-color: #F97316;
+  color: #FFFFFF;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.login-button:hover {
+  background-color: #2563EB;
+}
+
+/* Error message */
+.login-error {
+  color: #F97316;
+  font-size: 13px;
+  margin-top: -5px;
+}

@@ -1,0 +1,73 @@
+/* Container */
+.owner-dashboard {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9fafb;
+}
+
+/* Title */
+.dashboard-title {
+  text-align: center;
+  color: #2563EB;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Store List Grid */
+.store-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+/* Store Card */
+.store-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid rgba(31, 41, 55, 0.1);
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.store-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Store Title */
+.store-card h3 {
+  margin: 0 0 12px;
+  color: #1F2937;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+/* Store Description */
+.store-card p {
+  margin: 0 0 15px;
+  color: #4b5563;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* View Link Button */
+.view-link {
+  display: inline-block;
+  background-color: #F97316;
+  color: #FFFFFF;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.view-link:hover {
+  background-color: #2563EB;
+  transform: scale(1.03);
+}
